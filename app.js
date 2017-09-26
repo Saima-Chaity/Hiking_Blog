@@ -15,7 +15,8 @@ var commentRoute= require("./routes/comment");
 var indexRoute= require("./routes/index");
 
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost:27017/campground', {server: { poolSize: 5 }});
+// mongoose.connect('mongodb://localhost:27017/campground', {server: { poolSize: 5 }});
+mongoose.connect("mongodb://<saima>:<saima>@ds149844.mlab.com:49844/campground");
 var conn = mongoose.connection;
 conn.once('open', function ()
 {
