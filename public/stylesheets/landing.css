@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+#landing-header{
+    z-index:1;
+    position:relative;
+    text-align:center;
+    padding-top: 40vh;
+}
+
+#landing-header h1 {
+    color: skyblue;
+}
+
+#landing-header p {
+    color: skyblue;
+    font-size: 25px;
+}
+#landing-header hr{
+    width:40%;
+}
+
+.slideshow{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow li {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    animation: imageAnimation 50s linear infinite;
+}
+
+.slideshow li:nth-child(1){
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/20451615_560910810918538_5339194723652081741_o.jpg?oh=602afb8a7c681012b0d7f316057ef69d&oe=5A456262)
+}
+.slideshow li:nth-child(2){
+     background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/20229721_10155520631702418_5415955542929376296_o.jpg?oh=a18ac13d29d2a2ed8ca85b06c8dda03a&oe=5A162CA7);
+     animation-delay: 10s;
+}
+.slideshow li:nth-child(3){
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/21167487_10155635012807418_1186701280094124807_o.jpg?oh=80622f999ed86ec6e9a33eda08750d21&oe=5A5A8797);
+    animation-delay: 20s;
+}
+.slideshow li:nth-child(4){
+     background-image:url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/21122679_573805966295689_6381027263461905778_o.jpg?oh=d358066a5c68664112209e6acdc519c1&oe=5A528256);
+     animation-delay: 30s;
+}
+.slideshow li:nth-child(5){
+     background-image:url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/20934918_10155607311567418_5361353217148824865_o.jpg?oh=f20bcf1fe3f76834cf119a0d3847444a&oe=5A458FF7);
+     animation-delay: 40s;
+}
+@keyframes imageAnimation{
+    0%{
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    10%{
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+}

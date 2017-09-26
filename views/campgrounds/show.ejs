@@ -1,0 +1,48 @@
+<% include ../partials/header %>
+<h3 class="header"><%= campgrounds.Name %></h3>
+
+<div class="body">
+    <img  class="img" src="<%= campgrounds.Image %>">
+    <h4 class="text-right">$<%= campgrounds.Price %>/night</h4>
+    <br>
+    <p><%- campgrounds.Description %></p>
+    <p><em>Submitted by <%= campgrounds.Author.username %> </em></p>
+    <span><%= campgrounds.created.toDateString() %></span>
+    <br>
+    <% if(currentUser && campgrounds.Author.id.equals(currentUser._id)){ %>
+        <a id="button" class="btn btn-xs btn-warning" href= "/campground/<%= campgrounds._id%>/edit">Edit Post</a>
+        <form id="button" action="/campground/<%=campgrounds._id%>?_method=DELETE" method="POST">
+            <input type="submit" class="btn btn-xs btn-danger" value="Delete Post">
+        </form>
+    <% } %>
+
+
+<div class= "text-right">
+    <a href= "/campground/<%= campgrounds._id%>/comment/new">
+        <button class="btn-success">Add New comment</button>
+    </a>
+</div>
+
+
+<% campgrounds.comments.forEach(function(comment){ %>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr class= "horizontal-line">
+                            <strong><%= comment.Author.username %></strong>
+                            <span class="pull-right"><%= comment.created.toDateString()%></span>
+                            <p>
+                                <%= comment.Text %> 
+                            </p>
+                        <% if(currentUser && comment.Author.id.equals(currentUser._id)){ %>
+                            <a id="button" class="btn btn-xs btn-warning" 
+                               href="/campground/<%=campgrounds._id %>/comment/<%=comment._id %>/edit">Edit</a>
+                            <form id="button" action="/campground/<%=campgrounds._id %>/comment/<%=comment._id %>?_method=DELETE" method="POST">
+                                <input type="submit" class="btn btn-xs btn-danger" value="Delete">
+                            </form>
+                        <% } %>
+                        </div>
+                    </div>
+                <% }) %>
+</div>
+
+<% include ../partials/footer %>
