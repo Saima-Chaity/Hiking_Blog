@@ -1,6 +1,6 @@
 {
-  "name": "hiking",
-  "version": "1.0.0",
+  "name": "Campground",
+  "version": "v6.11.2",
   "description": "",
   "main": "app.js",
   "dependencies": {
