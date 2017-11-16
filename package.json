@@ -1,23 +1,15 @@
 
 {
-  "name": "workspace",
+  "name": "Campground",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Saima-Chaity/Hiking_Blog.git"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Saima-Chaity/Hiking_Blog/issues"
-  },
-  "homepage": "https://github.com/Saima-Chaity/Hiking_Blog#readme",
   "dependencies": {
    "body-parser": "^1.18.1",
     "connect-flash": "^0.1.1",
