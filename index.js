@@ -51,6 +51,7 @@ app.use(function(req, res, next){
     next();
 });
 
+
 app.use("/" ,indexRoute);
 app.use("/campground", campgroundRoute);
 app.use("/campground/:id/comment" , commentRoute);
