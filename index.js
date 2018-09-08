@@ -24,6 +24,7 @@ conn.once('open', function ()
 });
 
 
+
 // seedDB();
 // mongoose.connect("mongodb://localhost/campground");
 app.use(bodyParser.urlencoded({extended:true}));

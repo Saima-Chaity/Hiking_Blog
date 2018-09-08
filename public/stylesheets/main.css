@@ -3,11 +3,11 @@ body{
     border:6px solid black;
 }
 .imgContainer{
-    background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/22553378_595191844157101_8529241871439506494_o.jpg?oh=532ce7299a4e63c09fcfdb5ba68f75a8&oe=5A9BBC40);
+    background: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t1.0-9/41316536_793556534320630_7299592576510722048_o.jpg?_nc_cat=0&oh=b8abd6804454c449a02fec17d99657de&oe=5C2BAE24");
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
-    height: 600px;
+    height: 500px;
     text-align: center;
     margin-bottom: 10px;
 }

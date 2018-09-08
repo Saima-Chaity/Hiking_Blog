@@ -48,22 +48,22 @@ body{
 }
 
 .slideshow li:nth-child(1){
-    background-image: url(https://scontent.fyvr1-1.fna.fbcdn.net/v/t31.0-8/20543696_560910880918531_7460451173644278261_o.jpg?oh=83dc5e6d5895000334fe86547babcb55&oe=5AF34D77)
+    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/21414777_10155652436287418_2207217642308867038_o.jpg?_nc_cat=0&oh=d3c57add4d8c4beec248f963668e4aec&oe=5C1EFF88");
 }
 .slideshow li:nth-child(2){
-     background-image: url(https://scontent.fyvr1-1.fna.fbcdn.net/v/t31.0-8/22552908_10155777280612418_323555824264335562_o.jpg?oh=3abb2375da0ca1a4e663fe434ea14c42&oe=5AB6B9C2);
-     animation-delay: 10s;
+    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/22291231_589480954728190_1818580197367708738_o.jpg?_nc_cat=0&oh=79964d5e3a0e6f6dc392a5afaf878071&oe=5C28F73C");
+    animation-delay: 10s;
 }
 .slideshow li:nth-child(3){
-    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/21167487_10155635012807418_1186701280094124807_o.jpg?oh=80622f999ed86ec6e9a33eda08750d21&oe=5A5A8797);
+    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/21316304_10155652436262418_2067697773604694822_o.jpg?_nc_cat=0&oh=11c7c5f6f2b13c94ba34eef678285f22&oe=5C384630");
     animation-delay: 20s;
 }
 .slideshow li:nth-child(4){
-     background-image:url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/21122679_573805966295689_6381027263461905778_o.jpg?oh=d358066a5c68664112209e6acdc519c1&oe=5A528256);
+     background-image:url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/20121436_10155502326127418_74290375966851325_o.jpg?_nc_cat=0&oh=122cab1002edfa3c0f61238913afe3b5&oe=5C34FE9C");
      animation-delay: 30s;
 }
 .slideshow li:nth-child(5){
-     background-image:url(https://scontent.fyvr1-1.fna.fbcdn.net/v/t31.0-8/21414828_10155652435872418_649646742715491069_o.jpg?oh=22a665e4e3a64567ff71ed82c8454971&oe=5AF2F01E);
+     background-image:url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/26951959_636196506723301_1602747040173908887_o.jpg?_nc_cat=0&oh=bbbe7f93cd2418032e3636e945d3cd99&oe=5C35D4CC");
      animation-delay: 40s;
 }
 @keyframes imageAnimation{
