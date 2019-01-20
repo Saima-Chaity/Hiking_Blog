@@ -48,22 +48,22 @@ body{
 }
 
 .slideshow li:nth-child(1){
-    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/21414777_10155652436287418_2207217642308867038_o.jpg?_nc_cat=0&oh=d3c57add4d8c4beec248f963668e4aec&oe=5C1EFF88");
+    background-image: url("/stylesheets/joffre.jpg");
 }
 .slideshow li:nth-child(2){
-    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/22291231_589480954728190_1818580197367708738_o.jpg?_nc_cat=0&oh=79964d5e3a0e6f6dc392a5afaf878071&oe=5C28F73C");
+    background-image: url("/stylesheets/tulum.jpg");
     animation-delay: 10s;
 }
 .slideshow li:nth-child(3){
-    background-image: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/21316304_10155652436262418_2067697773604694822_o.jpg?_nc_cat=0&oh=11c7c5f6f2b13c94ba34eef678285f22&oe=5C384630");
+    background-image: url("/stylesheets/tinhut.jpg");
     animation-delay: 20s;
 }
 .slideshow li:nth-child(4){
-     background-image:url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/20121436_10155502326127418_74290375966851325_o.jpg?_nc_cat=0&oh=122cab1002edfa3c0f61238913afe3b5&oe=5C34FE9C");
+     background-image:url("/stylesheets/panorama.jpg");
      animation-delay: 30s;
 }
 .slideshow li:nth-child(5){
-     background-image:url("https://scontent.fyka1-1.fna.fbcdn.net/v/t31.0-8/26951959_636196506723301_1602747040173908887_o.jpg?_nc_cat=0&oh=bbbe7f93cd2418032e3636e945d3cd99&oe=5C35D4CC");
+     background-image:url("/stylesheets/tinhut2.jpg");
      animation-delay: 40s;
 }
 @keyframes imageAnimation{

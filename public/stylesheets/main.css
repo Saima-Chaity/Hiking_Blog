@@ -3,7 +3,7 @@ body{
     border:6px solid black;
 }
 .imgContainer{
-    background: url("https://scontent.fyka1-1.fna.fbcdn.net/v/t1.0-9/41316536_793556534320630_7299592576510722048_o.jpg?_nc_cat=0&oh=b8abd6804454c449a02fec17d99657de&oe=5C2BAE24");
+    background: url("/stylesheets/russet.jpg");
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
