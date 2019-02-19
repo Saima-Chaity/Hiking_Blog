@@ -3,7 +3,7 @@ body{
     border:6px solid black;
 }
 .imgContainer{
-    background: url("/stylesheets/russet.jpg");
+    background: url("/stylesheets/coverImage.jpg");
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
@@ -25,15 +25,17 @@ body{
     text-align:center;
     padding-top: 90px;
     padding-bottom: 10px;
-    color: black;
+    color: green;
     font-weight: bold;
+    text-shadow: 1px 1px gainsboro;
 }
 
 
 .quote {
-    color: black;
+    color: green;
     font-size: 25px;
     font-weight: bold;
+    text-shadow: 1px 1px gainsboro;
 }
 
 hr{
@@ -60,7 +62,7 @@ hr{
 .img{
    width: 100%;
    height: 650px;
-   border: 20px solid black;
+   border: 50px solid black;
 }
 
 .body{
@@ -88,10 +90,10 @@ hr{
 }
 
 span{
-    color:blue;
+    color:salmon;
 }
 em{
-    color:blue;
+    color:salmon;
 }
 
 
